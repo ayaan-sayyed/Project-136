@@ -1,0 +1,41 @@
+body {
+    background-size: cover;
+}
+
+.heading {
+    font-size: 21px;
+    font-weight: bold;
+    font-variant: small-caps;
+    width: 100%;
+    word-spacing: 20px;
+    letter-spacing: 27px;
+    margin: 0px;
+}
+
+.button1 {
+    font-size: 25px;
+    width: 10%;
+    height: 8%;
+    font-weight: bolder;
+    float: left;
+}
+
+#objects {
+    float: right;
+}
+
+canvas {
+    animation-name: example;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes example {
+    from {
+        box-shadow: 25px 35px 50px red
+    }
+
+    to {
+        box-shadow: 5px 6px 38px blue;
+    }}
